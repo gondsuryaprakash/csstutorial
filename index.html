@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./margin.css">
+    <link rel="stylesheet" href="./padding.css"> 
+    <link rel="stylesheet" href='./heightwidth.css'>
+    <link rel="stylesheet" href='./boxmodel.css'>
+</head>
+<style>
+    /* Border Example*/
+
+
+    #bordersolid {
+        border-style: solid;
+        border-width: 5px;
+    }
+
+    #borderdot {
+        border-style: dotted;
+        border-radius: 3px;
+        border-width: 4px;
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    /*Comment in the CSS */
+
+    /*
+    {
+           width style color
+    border: 5px solid red;
+     } 
+    */
+
+    #usingBorder {
+        border: 3px solid red;
+        border-radius: 10px;
+        height: 40px;
+    }
+
+</style>
+
+<body>
+
+    <div id="boxmodel">
+        This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div
+    id="heightwidth"
+    > This div have Height=50px and Width=100%</div>
+
+    <div id="maxwidth"> Max Width 500px width 100px </div>
+    <div id="margindiv">
+        Margin Div
+    </div>
+
+    <div id="padding">
+        Padding Div
+    </div>
+    <div id="bordersolid">
+        <p> Solid Border</p>
+    </div>
+    <div id="borderdot">
+        <p>  dotted</p>
+    </div>
+    <div id="usingBorder">
+        <p> Solid </p>
+    </div>
+</body>
+
+</html>

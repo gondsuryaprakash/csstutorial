@@ -1,0 +1,18 @@
+#heightwidth{
+
+
+    height: 50px;
+    width: 100%;
+    border: 5px solid red;
+    background-color: aquamarine;
+}
+
+#maxwidth{
+
+    max-width: 500px;
+    width:100px;
+    height: 200px;
+    background-color: burlywood;
+    margin-top: 10px;
+    align-items: center;
+}
