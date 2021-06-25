@@ -1,0 +1,10 @@
+#outlineDiv{
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: red;
+    border: 50px solid green;
+    width: 500px;
+    height: 200px;
+    outline-offset: 10px;
+    margin: 20px;
+}

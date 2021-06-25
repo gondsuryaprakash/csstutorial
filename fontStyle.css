@@ -1,0 +1,25 @@
+#fontDiv{
+
+    font-style: normal;
+    font-weight: bold;
+    
+    /*
+    View Port vw
+    font-size: 2em;
+    
+    */
+    font-size: 10vw;
+
+    /*
+    The font property is a shorthand property for:
+    font-style
+    font-variant
+    font-weight
+    font-size/line-height
+    font-family
+
+    font-size and font-family values are required
+    */
+
+   
+}

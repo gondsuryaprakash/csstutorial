@@ -1,0 +1,42 @@
+#divText{
+
+    color:green;
+    background-color: hotpink;
+    padding: 5px;
+    margin: 20px;
+    text-align: justify;
+    /*
+    text-decoration: underline; 
+    text-decoration: overline;
+    text-decoration: line-through;
+    */
+
+    text-decoration: underline; 
+    text-transform: lowercase;
+    /*
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    */
+
+    /*Text Indent is use for the giveng the space for the first line indent*/
+    text-indent: 20px;
+
+    /*Letter spacing is given for the space between character*/
+
+    letter-spacing:0px;
+
+    /*Line height is used for the giving the line height of the line*/
+
+    line-height: 1.8;
+
+    /*Word Spacing
+The word-spacing property is used to specify the space between the words in a text.
+The following example demonstrates how to increase or decrease the space between words:*/
+
+    word-spacing: 30px;
+    text-shadow: 2px 2px 5px red;
+   
+
+
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,24 @@
     <link rel="stylesheet" href="./padding.css"> 
     <link rel="stylesheet" href='./heightwidth.css'>
     <link rel="stylesheet" href='./boxmodel.css'>
+    <link rel="stylesheet" href='./outline.css'>
+    <link rel="stylesheet" href='./textStyle.css'>
+    <link rel="stylesheet" href='./fontStyle.css'>
+    <link rel="stylesheet" href='./table.css'>
+
+    <link rel="stylesheet" href='./link.css'>
+    <script>
+
+     function showAlert(){
+         alert("Hi Surya")
+     }
+    </script>
+    
+
+
 </head>
+
+
 <style>
     /* Border Example*/
 
@@ -42,10 +59,70 @@
         border-radius: 10px;
         height: 40px;
     }
+    #iconDiv{
+
+        width:200px;
+        margin: 20px;
+        padding: 30px;
+        border: 2px solid red;
+    }
+    #linkd{
+
+        width:200px;
+        margin: 50px;
+        background-color: aqua;
+        border: 2px solid red;
+        padding: 30px;
+        text-align: center;
+        
+    }
 
 </style>
 
 <body>
+
+    <div id="linkDiv2" onclick="showAlert()">
+
+        <a  href="#fontDiv">Link</a>
+    </div>
+   
+
+        <table>
+            <th>Name</th>
+            <th>School</th>
+            <th>Class</th>
+            <tr>
+                <td>Surya Prakash</td>
+                <td>JNV</td>
+                <td>7th</td>
+            </tr>
+
+            <tr>
+                <td>Surya Prakash</td>
+                <td>JNVS</td>
+                <td>3rd</td>
+            </tr>
+
+            <tr>
+                <td>Surya Prakash</td>
+                <td>SBVM</td>
+                <td>2nd</td>
+            </tr>
+        </table>
+
+    </div>
+    
+    <div id="fontDiv">
+
+        <p>Normal Text</p>
+    </div>
+    <div id="divText">
+        This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div id="outlineDiv">
+
+        OutlIne Div
+    </div>
 
     <div id="boxmodel">
         This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
