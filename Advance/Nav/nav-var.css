@@ -1,0 +1,21 @@
+.icon_bar {
+ width: 80px;
+ background-color: black;
+}
+
+.icon_bar a {
+    display: block;
+    padding: 12px 0;
+    color: white;
+    font-size: 30px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.icon_bar a:hover {
+    background-color: rgb(49, 45, 45);
+}
+
+.active {
+    background-color: tomato;
+}
